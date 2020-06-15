@@ -1,0 +1,39 @@
+{
+    "restaurants":[
+        {
+            "id":1,
+            "name":"Pizza Hut",
+            "address":"Noida",
+            "rating":"4.5",
+            "email":"pizzahut@testdomain.com"
+        },
+        {
+            "id":2,
+            "name":"Dominos",
+            "address":"Noida",
+            "rating":"4.5",
+            "email":"Dominos@testdomain.com"
+        },
+        {
+            "id":3,
+            "name":"McDonald",
+            "address":"Noida",
+            "rating":"4.5",
+            "email":"McDonald@testdomain.com"
+        },
+        {
+            "id":4,
+            "name":"Taj",
+            "address":"Noida",
+            "rating":"4.5",
+            "email":"Taj@testdomain.com"
+        },
+        {
+            "id":5,
+            "name":"BBQ",
+            "address":"Noida",
+            "rating":"4.5",
+            "email":"BBQ@testdomain.com"
+        }
+    ]
+}
