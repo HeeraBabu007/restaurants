@@ -1,9 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 class RestaurantsDetail extends React.Component {
-    constructor(props) {
-        super(props);
+    constructor() {
+        super();
         this.state = {};
     }
 
@@ -15,7 +14,5 @@ class RestaurantsDetail extends React.Component {
         );
     }
 }
-
-RestaurantsDetail.propTypes = {};
 
 export default RestaurantsDetail;

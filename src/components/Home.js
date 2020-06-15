@@ -1,9 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 class Home extends React.Component {
-    constructor(props) {
-        super(props);
+    constructor() {
+        super();
         this.state = {};
     }
 
@@ -15,7 +14,5 @@ class Home extends React.Component {
         );
     }
 }
-
-Home.propTypes = {};
 
 export default Home;

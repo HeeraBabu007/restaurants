@@ -1,5 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
+import {Navbar, Nav} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import './App.css';
 // using ES6 modules
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
@@ -15,14 +17,19 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/list">List</Link></li>
-        <li><Link to="/create">Create</Link></li>
-        <li><Link to="/search">Search</Link></li>
-        <li><Link to="/detail">Detail</Link></li>
-        <li><Link to="/update">Update</Link></li>
-        </ul>
+
+<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+  <Navbar.Brand href="#home"><Link to="/">Home</Link></Navbar.Brand>
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse id="responsive-navbar-nav">
+    <Nav className="mr-auto">
+      <Nav.Link href="#pricing"><Link to="/list">List</Link></Nav.Link>
+      <Nav.Link href="#pricing"><Link to="/search">Search</Link></Nav.Link>
+      <Nav.Link href="#pricing"><Link to="/detail">Detail</Link></Nav.Link>
+      <Nav.Link href="#pricing"><Link to="/update">Update</Link></Nav.Link>
+    </Nav>
+  </Navbar.Collapse>
+</Navbar>
         <Route path="/list">
           <RestaurantsList/>
         </Route>

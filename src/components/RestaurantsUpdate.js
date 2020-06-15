@@ -1,10 +1,9 @@
 
 import React from 'react';
-import PropTypes from 'prop-types';
 
 class RestaurantsUpdate extends React.Component {
-    constructor(props) {
-        super(props);
+    constructor() {
+        super();
         this.state = {};
     }
 
@@ -16,7 +15,5 @@ class RestaurantsUpdate extends React.Component {
         );
     }
 }
-
-RestaurantsUpdate.propTypes = {};
 
 export default RestaurantsUpdate;
