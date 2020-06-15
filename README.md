@@ -1,6 +1,5 @@
 setting-up-a-mock-api
 https://www.npmjs.com/package/json-server
-
 https://stackoverflow.com/questions/47753277/npm-err-missing-script-json
 or:-
 My package.json has the following
@@ -20,6 +19,8 @@ My package.json has the following
   }
 }
 
+You can see a video on youtube
+https://www.youtube.com/watch?v=1zkgdLZEdwM
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
