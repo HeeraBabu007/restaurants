@@ -1,3 +1,8 @@
+setting-up-a-mock-api
+https://blog.harveydelaney.com/setting-up-a-mock-api-for-your-front-end-react-project/
+
+npm i --save-dev express connect-api-mocker
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
