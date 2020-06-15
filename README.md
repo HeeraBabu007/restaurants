@@ -1,7 +1,25 @@
 setting-up-a-mock-api
-https://blog.harveydelaney.com/setting-up-a-mock-api-for-your-front-end-react-project/
+https://www.npmjs.com/package/json-server
 
-npm i --save-dev express connect-api-mocker
+https://stackoverflow.com/questions/47753277/npm-err-missing-script-json
+or:-
+My package.json has the following
+
+   {
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "description": "Fake REST API for testing",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json" 
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.12.1"
+  }
+}
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
